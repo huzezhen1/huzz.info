@@ -17,10 +17,10 @@ menu:
     icon: bookmark
     class: menu-category
   # 读书
-  - id: reading
-    link: /reading
-    icon: book
-    class: menu-reading
+  # - id: reading
+  #  link: /reading
+  #  icon: book
+  #  class: menu-reading
   # 关于
   - id: about
     link: /about
