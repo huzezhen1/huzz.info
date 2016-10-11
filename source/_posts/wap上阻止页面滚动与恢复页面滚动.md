@@ -40,7 +40,7 @@ function bodyScroll(e){
 原生写法，注意IE8以及IE8以下使用``attachEvent()``和``detachEvent()``
 ```
 document.addEventListener("touchmove",bodyScroll,false);  /*上锁*/
-docume.removeEventListener("touchmove",bodyScroll.false); /*解锁*/
+docume.removeEventListener("touchmove",bodyScroll,false); /*解锁*/
 ```
 jQuery写法
 ```
