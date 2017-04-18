@@ -25,7 +25,7 @@ Object.create(prototype, descriptors)
 `descriptors`：可选，包含一个或多个属性描述符的js对象
 
 <span style="color:red;">Tips</span>：属性描述符包括`value`、 `writable`、`enumerable`、`configurable`，除了`value`，其他都默认为`false`
-
+<!-- more -->
 > ### 异常
 
 引发TypeError异常的情况：
@@ -36,6 +36,7 @@ Object.create(prototype, descriptors)
 > ### 备注
 
 函数返回一个具有指定的内部原型且包含指定的属性（如果有）的新对象
+
 
 > ### 例子
 

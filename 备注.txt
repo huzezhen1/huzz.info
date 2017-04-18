@@ -9,6 +9,11 @@ tags:
 
 ------------
 
+图片可以放在source/assets/blogImg里面
+然后在md文件中引用  ![图片](/assets/blogImg/1.png)
+
+------------
+
 文章以为md文件的格式存放于source/_posts目录下
 
 然后huzz.info目录下执行hexo server或者hexo s
