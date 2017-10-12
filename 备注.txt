@@ -23,7 +23,8 @@ tags:
 然后再 hexo g
 最后再 hexo d
 
-然后需要去 huzezhen1.github.io 项目的settings里面设置下Custom domain为www.huzz.info
+然后需要去 huzezhen1.github.io 项目的settings里面设置下Custom domain为www.huzz.info（也可以不用，我们在source文件里新增一个CNAME文件【注意大写】，在里面写上我们的域名，不用www）
+
 
 这样博客网站就能看到新的文章了
 
@@ -34,3 +35,4 @@ tags:
 huzz.info项目存放的是hexo配置以及md文章等文件，还没转化成文章.html
 huzezhen1.github.io项目存放的是经过hexo命令转化后的静态文件，如：文章.html
 我们执行hexo命令会提交转化后的静态html文件到huzezhen1.github.io项目，所以不需要我们本地提交
+如果不知道自己的域名要怎么和github的博客联系起来，看（https://www.zhihu.com/question/31377141）
