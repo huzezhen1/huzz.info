@@ -5,7 +5,8 @@ categories:
 - 分类级别2
 tags:
 - 标签1
-- 标签2　　　
+- 标签2
+toc: true     // 是否显示目录　　
 
 ------------
 
@@ -36,3 +37,14 @@ huzz.info项目存放的是hexo配置以及md文章等文件，还没转化成文章.html
 huzezhen1.github.io项目存放的是经过hexo命令转化后的静态文件，如：文章.html
 我们执行hexo命令会提交转化后的静态html文件到huzezhen1.github.io项目，所以不需要我们本地提交
 如果不知道自己的域名要怎么和github的博客联系起来，看（https://www.zhihu.com/question/31377141）
+
+------------
+
+博客中也可以插入一些可执行的代码，具体在 runjs.cn 中写好代码后分享，拿到生成的 iframe，再插到文中就好了
+
+------------
+
+相册
+
+把图片放到   source/photos/img 和 source/photos/min-img
+然后修改 ins.json

@@ -1,10 +1,11 @@
 ---
-title: 关于Object.create、Object.defineProperty、Object.assign
+title: "关于Object.create、Object.defineProperty、Object.assign"
 date: 2016-12-28 10:40:08
 tags: 
-- javascript
+	- javascript
 categories: 
-- javascript
+	- javascript
+toc: true
 ---
 
 ## Object.create()
