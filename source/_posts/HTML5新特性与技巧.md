@@ -8,34 +8,38 @@ categories:
 - HTML5
 ---
 
-># 新的文档类型声明
+记录HTML5的一些新的特性与技巧
+
+![]()
+
+### 新的文档类型声明
 
 ```
 <!DOCTYPE html>
 ```
 
-># 字符集
+### 字符集
 
 HTML5使用UTF-8编码
 
-># 去除link和script标签里的type属性
+### 去除link和script标签里的type属性
 
 script和link里不需要写``type``
 <!-- more -->
-># figure和figcaption标签的组合
+### figure和figcaption标签的组合
 
 语义化地将图片与注释联系起来
 
 ```
 <figure>
-	<img src="xxx.jpg" />
-	<figcaption>
-		<p>这是一幅图片的描述</p>
-	</figcaption>
+  <img src="xxx.jpg" />
+  <figcaption>
+    <p>这是一幅图片的描述</p>
+  </figcaption>
 </figure>
 ```
 
-># 语义化了header和footer标签
+### 语义化了header和footer标签
 
 ```
 <header>
@@ -49,12 +53,12 @@ script和link里不需要写``type``
 </footer>
 ```
 
-># 新的small标签
+### 新的small标签
 
 HTML5里``small``标签将旁注呈现为小型文本，负责声明、注意事项、法律限制或版本声明的特征通常都是小型文本。
 在HTML4或XHTML里已经定义过``small``，不过对它的使用却没有一个完整的说明。在HTML里，它主要用于网页下方的版本声明，邮箱等小型文本。
 
-># hgroup标签(<mark>HTML5.1中已废除</mark>)
+### hgroup标签(<mark>HTML5.1中已废除</mark>)
 
 主要表明标题的集合，用处不大，如果想表明主标题与副标题，可如下：
 
@@ -68,7 +72,7 @@ HTML5里``small``标签将旁注呈现为小型文本，负责声明、注意事
 
 ```
 <h1>前端博文
-	<span>HTML5新特性与技巧</span>
+  <span>HTML5新特性与技巧</span>
 </h1>
 ```
 
@@ -76,12 +80,12 @@ HTML5里``small``标签将旁注呈现为小型文本，负责声明、注意事
 
 ```
 <header>
-	<h1>前端博文</h1>
-	<p>HTML5新特性与技巧</p>
+  <h1>前端博文</h1>
+  <p>HTML5新特性与技巧</p>
 </header>
 ```
 
-># mark标签
+### mark标签
 
 标签内的字符会高亮显示
 
@@ -89,7 +93,7 @@ HTML5里``small``标签将旁注呈现为小型文本，负责声明、注意事
 <mark>文字高亮</mark>
 ```
 
-># contenteditable属性
+### contenteditable属性
 
 让一个div元素变得可编辑，可在div中加上``contenteditable``属性，如：
 
@@ -103,7 +107,7 @@ HTML5里``small``标签将旁注呈现为小型文本，负责声明、注意事
 <div contenteditable="plaintext-only"></div>
 ```
 
-># placeholder属性
+### placeholder属性
 
 这个属性是占位符的意思，不用像以前用JS来实现占位符，可直接使用该属性（支持HTML5的浏览器）
 placeholder属性适用于以下的``input``类型：text，search，url，telephone，email以及password
@@ -114,7 +118,7 @@ placeholder属性适用于以下的``input``类型：text，search，url，telep
 
 但是不支持HTML5的浏览器还是得用JS的方法去实现占位符，因此大多数网站都是用``label``标签来假装占位符，通过隐藏和显示来实现效果以便兼容大部分浏览器
 
-># required属性
+### required属性
 
 指明某一输入是否必需，有两种声明方式：
 
@@ -126,7 +130,7 @@ placeholder属性适用于以下的``input``类型：text，search，url，telep
 
 主要在表单中用，声明了required的元素为空，提交时输入框会高亮提示
 
-># autofocus属性
+### autofocus属性
 
 让元素（按钮、文本框等）自动获得焦点，而不用通过JS，如：
 
@@ -136,7 +140,7 @@ placeholder属性适用于以下的``input``类型：text，search，url，telep
 <input type="text" autofocus="autofocus">
 ```
 
-># pattern属性
+### pattern属性
 
 可在标签中通过这个属性来插入正则表达式，如：
 
@@ -146,7 +150,7 @@ placeholder属性适用于以下的``input``类型：text，search，url，telep
 
 如果浏览器支持pattern属性，表单提交时会验证，不通过文本框会高亮提示
 
-># data属性
+### data属性
 
 自定义属性，以``data``前缀定义我们的自定义属性`` data-*``
 
@@ -177,20 +181,20 @@ $("#myDiv").data("customVal","the new value"); /* jQuery的data方法 */
 CSS中也可以这样使用
 ```
 <style>
-	h1:hover:after{
-		content:attr(data-custom-val);		/*注意这里*/
-		color:black;
-		position:absolute;
-		left:0;
-	}
+  h1:hover:after{
+    content:attr(data-custom-val);    /*注意这里*/
+    color:black;
+    position:absolute;
+    left:0;
+  }
 </style>
 ```
 
-># input文本框中type为email
+### input文本框中type为email
 
 表单中的input设置type为email后，提交表单会判断是否邮件格式，不是则文本框高亮提示
 
-># input文本框的type为range
+### input文本框的type为range
 
 创建滑块，如：
 
@@ -202,23 +206,23 @@ CSS中也可以这样使用
 
 ```
 input[type="range"]:before{
-	content:attr(min);
-	padding-right:5px;
+  content:attr(min);
+  padding-right:5px;
 }
 input[type="range"]:after{
-	content:attr(max);
-	padding-left:5px;
+  content:attr(max);
+  padding-left:5px;
 }
 ```
 
-># 两种本地存储方案：localStorage和sessionStorage
+### 两种本地存储方案：localStorage和sessionStorage
 
 localStorage： 持久化的本地存储，除非自己清除，否则不会过期
 sessionStorage: 会话级别的存储，同一个会话中的页面才能访问，且会话结束后数据也会销毁
 
 后续准备写一篇文章详细探讨两者以及与cookies的区别对比
 
-># HTML5表单特性
+### HTML5表单特性
 
 新增了一些新的表单元素
 
@@ -226,15 +230,15 @@ sessionStorage: 会话级别的存储，同一个会话中的页面才能访问�
 ``datalist``、``datetime``、``output``、``keygen``、``date``、``month``、``week``、``time``、``color``、``number``、``range``、``email``、``url``
 
 
-># 音视频标签
+### 音视频标签
 
 HTML5支持mp3、wav、ogg格式的音频，使用``audio``标签
 
 ```
 <audio autoplay controls>
-	<source src="file.ogg">
-	<source src="file.mp3">
-	<a href="file.mp3">Download</a>
+  <source src="file.ogg">
+  <source src="file.mp3">
+  <a href="file.mp3">Download</a>
 <audio>
 ```
 
@@ -244,24 +248,24 @@ HTML5支持mp4、webm、ogg格式的视频，使用``video``标签
 
 ```
 <video controls preload>
-	<source src="file.ogg" type="video/ogg; codecs='vorbis,theora'" />
-	<source src="file.mp4" type="video/mp4; codecs='avc1.42E01E, mp4a.40.2'" />
-	<p> Your browser is old. <a href="file.mp4"> Download this video.</a></p>
+  <source src="file.ogg" type="video/ogg; codecs='vorbis,theora'" />
+  <source src="file.mp4" type="video/mp4; codecs='avc1.42E01E, mp4a.40.2'" />
+  <p> Your browser is old. <a href="file.mp4"> Download this video.</a></p>
 </video>
 ```
 
 ``preload``属性决定是否在浏览器加载页面时预先加载视频资源
 ``controls``属性决定是否视频上显示进度条（不同浏览器样式是不一样的）
 
-># 检测属性支持
+### 检测属性支持
 
 例如检测浏览器是否支持pattern属性，可以这样：
 
 ```
-alert("pattern" in document.createElement("input")); /* boolean */							
+alert("pattern" in document.createElement("input")); /* boolean */              
 ```
 
-># 标签的闭合与属性的引号
+### 标签的闭合与属性的引号
 
 HTML5不是XHTML，没有要求一定要引号和闭合元素，例如：
 
@@ -271,7 +275,7 @@ HTML5不是XHTML，没有要求一定要引号和闭合元素，例如：
 
 不过为了可读性还是建议加上闭合
 
-># 哪些不是HTML5，HTML5废弃哪些HTML4标签
+### 哪些不是HTML5，HTML5废弃哪些HTML4标签
 
 不是HTML5：
 
@@ -287,7 +291,7 @@ HTML5废弃的HTML4标签
 
 ``frame``、``frameset``、``noframe``、``applet``、``big``、``center``、``basefont``
 
-># output标签
+### output标签
 
 定义不同类型的输出，显示计算的结果
 
