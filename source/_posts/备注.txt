@@ -34,3 +34,8 @@ toc: true
 tags: 
 	- Ç°¶Ë
 ---
+
+
+![](/assets/blogImg/default.jpg)
+
+<!-- more -->
