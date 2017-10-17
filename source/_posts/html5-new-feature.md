@@ -10,7 +10,9 @@ categories:
 
 记录HTML5的一些新的特性与技巧
 
-![]()
+![](/assets/blogImg/html5-new-feature.jpg)
+
+<!-- more -->
 
 ### 新的文档类型声明
 
@@ -25,7 +27,7 @@ HTML5使用UTF-8编码
 ### 去除link和script标签里的type属性
 
 script和link里不需要写``type``
-<!-- more -->
+
 ### figure和figcaption标签的组合
 
 语义化地将图片与注释联系起来

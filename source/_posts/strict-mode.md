@@ -53,12 +53,12 @@ console.log('正常模式')
 
 ```
 function fn1() {
-	'use strict';
-	console.log('严格模式');
+  'use strict';
+  console.log('严格模式');
 }
 
 function fn2() {
-	console.log('正常模式');
+  console.log('正常模式');
 }
 ```
 

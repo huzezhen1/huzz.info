@@ -10,7 +10,9 @@ categories:
 
 移动端开发时，如何在遮罩层出现的同时让背景失去上下滚动的能力？
 
-![](/assets/blogImg/strict-mode.jpg)
+![](/assets/blogImg/stop-scroll-and-recover.jpg)
+
+<!-- more -->
 
 ### 场景
 
@@ -19,7 +21,7 @@ categories:
 ### 目标
 
 在弹出框出现时阻止页面滚动并在弹出框消失后恢复滚动
-<!-- more -->
+
 ### 方案
 
 ##### 方案一
