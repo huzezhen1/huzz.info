@@ -13,7 +13,7 @@ categories:
 
 探索移动端的几个触摸事件
 
-![](/assets/blogImg/strict-mode.jpg)
+![](/assets/blogImg/mobile-events.jpg)
 
 <!-- more -->
 
@@ -94,3 +94,4 @@ document.elementFromPoint(clientX, clientY)  // 传入坐标值，可以得到�
 在检测到``touchend``事件时通过**DOM自定义事件**立即模拟一个``click``事件，再把300ms后的原生``click``事件阻止掉
 
 关于**DOM自定义事件**再开篇详解
+> [已更新，点击查看](/2017/04/02/custom-event/)
