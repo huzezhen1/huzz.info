@@ -34,7 +34,7 @@ element.addEventListener(event, callback, useCapture)
 ```
 参数``event``：绑定的事件名称
 参数``callback``：触发的回调函数，事件对象会作为第一个参数传入函数
-参数``useCapture``：布尔值，表示指定事件是在捕获（true）或冒泡（false）阶段执行，默认值是false
+参数``useCapture``：布尔值，表示指定事件是在捕获（true）或冒泡（false）阶段执行，默认值是false（[事件冒泡和捕获的执行顺序](http://blog.csdn.net/moguzhale/article/details/53503044)）
 
 简单例子：
 ```
