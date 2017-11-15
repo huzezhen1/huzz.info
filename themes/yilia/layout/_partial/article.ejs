@@ -129,4 +129,13 @@
       url: config.url+url_for(post.path)
     }) %>
   <% } %>
+
+  <% if (theme.coding_comments.owner && theme.coding_comments.repo && theme.coding_comments.oauth && theme.coding_comments.oauth.client_id && theme.coding_comments.oauth.client_secret){ %>
+  <%- partial('post/coding', {
+      key: post.slug,
+      title: post.title,
+      url: config.url+url_for(post.path)
+    }) %>
+  <% } %>
+
 <% } %>

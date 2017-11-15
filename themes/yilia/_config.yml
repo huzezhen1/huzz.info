@@ -99,6 +99,14 @@ gitment_oauth:
   client_id: ''           #client ID
   client_secret: ''       #client secret
 
+#6、Conding Comments
+coding_comments:
+    owner: 'huzezhen'
+    repo: 'css-demo'
+    oauth:
+        client_id: '669f85854d7d81574a7c8e9165cef362'
+        client_secret: '6f8177cd5dbb428b6d6a2453854ecfade8bd4997'
+
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
   # 头像上面的背景颜色
