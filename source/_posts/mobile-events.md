@@ -13,7 +13,7 @@ categories:
 
 探索移动端的几个触摸事件
 
-![](/assets/blogImg/mobile-events.jpg)
+<!-- ![](/assets/blogImg/mobile-events.jpg) -->
 
 <!-- more -->
 

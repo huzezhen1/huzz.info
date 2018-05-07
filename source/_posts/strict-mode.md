@@ -12,7 +12,7 @@ categories:
 
 ECMAScript 5新增了一种新的运行模式：**严格模式**
 
-![](/assets/blogImg/strict-mode.jpg)
+<!-- ![](/assets/blogImg/strict-mode.jpg) -->
 
 <!-- more -->
 

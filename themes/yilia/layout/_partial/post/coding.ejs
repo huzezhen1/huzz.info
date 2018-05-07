@@ -7,12 +7,6 @@
   var coding_comments_client_id = "<%=theme.coding_comments.oauth.client_id%>";
   var coding_comments_client_secret = "<%=theme.coding_comments.oauth.client_secret%>";
   var coding_comments_id = "<%=url%>";
-
-  console.log("coding_comments_user:" + coding_comments_user);
-  console.log("coding_comments_project:" + coding_comments_project);
-  console.log("coding_comments_client_id:" + coding_comments_client_id);
-  console.log("coding_comments_client_secret:" + coding_comments_client_secret);
-
   (function() {
     const gitment = new Gitment({
       owner: coding_comments_user,

@@ -8,7 +8,7 @@ categories:
 
 记录下Markdown的一些语法
 
-![](/assets/blogImg/markdown-note.jpg)
+<!-- ![](/assets/blogImg/markdown-note.jpg) -->
 
 <!-- more -->
 

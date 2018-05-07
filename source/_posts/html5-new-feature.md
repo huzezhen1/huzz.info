@@ -10,7 +10,7 @@ categories:
 
 记录HTML5的一些新的特性与技巧
 
-![](/assets/blogImg/html5-new-feature.jpg)
+<!-- ![](/assets/blogImg/html5-new-feature.jpg) -->
 
 <!-- more -->
 

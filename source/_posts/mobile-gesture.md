@@ -13,7 +13,7 @@ categories:
 
 探究下移动端上一些手势实现的思路
 
-![](/assets/blogImg/mobile-gesture.jpg)
+<!-- ![](/assets/blogImg/mobile-gesture.jpg) -->
 
 <!-- more -->
 

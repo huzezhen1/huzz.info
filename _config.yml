@@ -96,8 +96,8 @@ deploy:
  # repository: git@git.coding.net:huzezhen/hexo-blog.git,master
  # branch: master
  repo: 
-     github: https://github.com/huzezhen1/huzezhen1.github.io.git,master
-     coding: https://git.coding.net/huzezhen/hexo-blog.git,master
+     github: git@github.com:huzezhen1/huzezhen1.github.io.git
+     coding: git@git.coding.net:huzezhen/hexo-blog.git
 
 
 #deploy:

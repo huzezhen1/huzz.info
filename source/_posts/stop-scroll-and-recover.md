@@ -10,7 +10,7 @@ categories:
 
 移动端开发时，如何在遮罩层出现的同时让背景失去上下滚动的能力？
 
-![](/assets/blogImg/stop-scroll-and-recover.jpg)
+<!-- ![](/assets/blogImg/stop-scroll-and-recover.jpg) -->
 
 <!-- more -->
 

@@ -14,7 +14,7 @@ categories:
 
 包括：CommonJS、AMD、CMD、UMD、ES6
 
-![](/assets/blogImg/javascript-module-Specification.jpg)
+<!-- ![](/assets/blogImg/javascript-module-Specification.jpg) -->
 
 <!-- more -->
 

@@ -14,7 +14,7 @@ categories:
 
 如果你知道``setTimeout(fn, 0)``的作用，那可以不用点开本文
 
-![](/assets/blogImg/javascript-timer.jpg)
+<!-- ![](/assets/blogImg/javascript-timer.jpg) -->
 
 <!-- more -->
 

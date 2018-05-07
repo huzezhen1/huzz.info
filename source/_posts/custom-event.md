@@ -12,7 +12,7 @@ categories:
 
 了解下自定义事件，主要是JavaScript中的事件触发器
 
-![](/assets/blogImg/custom-event.jpg)
+<!-- ![](/assets/blogImg/custom-event.jpg) -->
 
 <!-- more -->
 
