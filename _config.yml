@@ -99,7 +99,6 @@ deploy:
      github: git@github.com:huzezhen1/huzezhen1.github.io.git
      coding: git@git.coding.net:huzezhen/hexo-blog.git
 
-
 #deploy:
 #  type: rsync
 #  host: 120.24.181.238
